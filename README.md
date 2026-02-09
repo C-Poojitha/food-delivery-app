@@ -43,7 +43,7 @@ Food Delivery App is a modern, full-stack Java web application that enables user
 ## 🖼️ Application Screenshots
 
 ### Home Page - Restaurant Discovery
-![Home Page](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&h=600&fit=crop)
+![Home Page](screenshots/home_page.png)
 
 *Browse popular restaurants with ratings, delivery times, and beautiful food imagery*
 
@@ -56,7 +56,7 @@ Food Delivery App is a modern, full-stack Java web application that enables user
 ---
 
 ### Menu Page - Explore Specialties
-![Menu Page](https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&h=600&fit=crop)
+![Menu Page](screenshots/menu_page.png)
 
 *View restaurant-specific menu items with descriptions, prices, and quantity selectors*
 
@@ -69,7 +69,7 @@ Food Delivery App is a modern, full-stack Java web application that enables user
 ---
 
 ### Shopping Cart - Manage Orders
-![Cart Page](https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=1200&h=600&fit=crop)
+![Cart Page](screenshots/cart_with_items.png)
 
 *Review cart items, adjust quantities, and proceed to checkout with real-time totals*
 
@@ -82,7 +82,7 @@ Food Delivery App is a modern, full-stack Java web application that enables user
 ---
 
 ### Empty Cart State
-![Empty Cart](https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200&h=600&fit=crop)
+![Empty Cart](screenshots/empty_cart.png)
 
 *Friendly empty state with clear call-to-action to browse restaurants*
 
