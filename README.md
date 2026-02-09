@@ -40,45 +40,56 @@ Food Delivery App is a modern, full-stack Java web application that enables user
 
 ---
 
-## 🖼️ Application Features Showcase
+## 🖼️ Application Screenshots
 
-### 🏠 Home Page - Restaurant Discovery
-**Browse popular restaurants with ease**
-- Grid layout displaying restaurant cards
-- Each card shows: restaurant image, name, rating (⭐), delivery time, and description
-- Hover effects with smooth transitions
+### Home Page - Restaurant Discovery
+![Home Page](https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&h=600&fit=crop)
+
+*Browse popular restaurants with ratings, delivery times, and beautiful food imagery*
+
+**Features:**
+- Grid layout displaying restaurant cards with images
+- Restaurant ratings, delivery time, and descriptions
+- Smooth hover effects and transitions
 - Click any restaurant to view its menu
 
-### 📋 Menu Page - Explore Specialties
-**View restaurant-specific menu items**
+---
+
+### Menu Page - Explore Specialties
+![Menu Page](https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1200&h=600&fit=crop)
+
+*View restaurant-specific menu items with descriptions, prices, and quantity selectors*
+
+**Features:**
 - Display all menu items for selected restaurant
-- Each item shows: food image, name, description, price (₹), and rating
+- Food images, names, descriptions, prices (₹), and ratings
 - Quantity selector with +/- buttons
 - "Add to Cart" button for each item
-- Real-time cart count updates in navigation
 
-### 🛒 Shopping Cart - Manage Orders
-**Review and manage your cart**
+---
+
+### Shopping Cart - Manage Orders
+![Cart Page](https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=1200&h=600&fit=crop)
+
+*Review cart items, adjust quantities, and proceed to checkout with real-time totals*
+
+**Features:**
 - List of all added items with thumbnails
 - Item details: name, restaurant, price, quantity
 - Quantity controls (increment/decrement)
-- Remove item option (trash icon)
-- Real-time total price calculation
-- "Proceed to Checkout" button
+- Remove item option and total price calculation
 
-### 📭 Empty Cart State
-**Friendly guidance when cart is empty**
-- Clean empty state message
-- "Your cart is empty" heading
+---
+
+### Empty Cart State
+![Empty Cart](https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200&h=600&fit=crop)
+
+*Friendly empty state with clear call-to-action to browse restaurants*
+
+**Features:**
+- Clean, friendly empty state message
 - "Browse Restaurants" call-to-action button
 - Encourages users to start shopping
-
-> [!TIP]
-> **Want to add screenshots?** After deploying your app, take screenshots and save them in the `screenshots/` folder as:
-> - `home_page.png` - Restaurant listing page
-> - `menu_page.png` - Menu items page
-> - `cart_page.png` - Shopping cart with items
-> - `empty_cart.png` - Empty cart state
 
 
 ---
