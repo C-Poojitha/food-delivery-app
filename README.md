@@ -40,33 +40,46 @@ Food Delivery App is a modern, full-stack Java web application that enables user
 
 ---
 
-## 🖼️ Application Screenshots
+## 🖼️ Application Features Showcase
 
-### Home Page - Restaurant Discovery
-![Home Page](screenshots/home_page.png)
+### 🏠 Home Page - Restaurant Discovery
+**Browse popular restaurants with ease**
+- Grid layout displaying restaurant cards
+- Each card shows: restaurant image, name, rating (⭐), delivery time, and description
+- Hover effects with smooth transitions
+- Click any restaurant to view its menu
 
-*Browse popular restaurants with ratings, delivery times, and beautiful food imagery*
+### 📋 Menu Page - Explore Specialties
+**View restaurant-specific menu items**
+- Display all menu items for selected restaurant
+- Each item shows: food image, name, description, price (₹), and rating
+- Quantity selector with +/- buttons
+- "Add to Cart" button for each item
+- Real-time cart count updates in navigation
 
----
+### 🛒 Shopping Cart - Manage Orders
+**Review and manage your cart**
+- List of all added items with thumbnails
+- Item details: name, restaurant, price, quantity
+- Quantity controls (increment/decrement)
+- Remove item option (trash icon)
+- Real-time total price calculation
+- "Proceed to Checkout" button
 
-### Menu Page - Explore Specialties
-![Menu Page](screenshots/menu_page.png)
+### 📭 Empty Cart State
+**Friendly guidance when cart is empty**
+- Clean empty state message
+- "Your cart is empty" heading
+- "Browse Restaurants" call-to-action button
+- Encourages users to start shopping
 
-*View restaurant-specific menu items with descriptions, prices, and quantity selectors*
+> [!TIP]
+> **Want to add screenshots?** After deploying your app, take screenshots and save them in the `screenshots/` folder as:
+> - `home_page.png` - Restaurant listing page
+> - `menu_page.png` - Menu items page
+> - `cart_page.png` - Shopping cart with items
+> - `empty_cart.png` - Empty cart state
 
----
-
-### Shopping Cart - Manage Orders
-![Cart Page](screenshots/cart_page.png)
-
-*Review cart items, adjust quantities, and proceed to checkout with real-time totals*
-
----
-
-### Empty Cart State
-![Empty Cart](screenshots/empty_cart.png)
-
-*Friendly empty state with clear call-to-action to browse restaurants*
 
 ---
 
