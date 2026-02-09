@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Menu</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f4f5f7;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #222;
+    }
+
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+    }
+
+    .menu-card {
+      background: #ffffff;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .menu-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 14px 32px rgba(0,0,0,0.12);
+    }
+
+    .menu-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .menu-content {
+      padding: 16px;
+    }
+
+    .menu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .menu-header h2 {
+      font-size: 18px;
+      color: #111;
+    }
+
+    .rating {
+      background: #27ae60;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #555;
+      margin: 10px 0;
+      line-height: 1.4;
+    }
+
+    .menu-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+    }
+
+    .price {
+      font-size: 16px;
+      font-weight: 600;
+      color: #e67e22;
+    }
+
+    .btn {
+      background: #ff4d4d;
+      color: #fff;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 10px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e63e3e;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Menu</h1>
+
+  <div class="menu-container">
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Butter Chicken" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Butter Chicken</h2>
+          <span class="rating">4.6 ★</span>
+        </div>
+        <p class="description">Creamy tomato-based curry with tender chicken pieces.</p>
+        <div class="menu-footer">
+          <span class="price">₹280</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Cheese Burger" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Cheese Burger</h2>
+          <span class="rating">4.3 ★</span>
+        </div>
+        <p class="description">Juicy grilled patty topped with cheese and fresh veggies.</p>
+        <div class="menu-footer">
+          <span class="price">₹190</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9" alt="Pasta Alfredo" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Pasta Alfredo</h2>
+          <span class="rating">4.5 ★</span>
+        </div>
+        <p class="description">Italian pasta tossed in rich and creamy Alfredo sauce.</p>
+        <div class="menu-footer">
+          <span class="price">₹240</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" alt="Veg Pizza" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Veg Pizza</h2>
+          <span class="rating">4.4 ★</span>
+        </div>
+        <p class="description">Loaded with fresh veggies and mozzarella cheese.</p>
+        <div class="menu-footer">
+          <span class="price">₹260</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e" alt="Healthy Salad" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Healthy Salad</h2>
+          <span class="rating">4.7 ★</span>
+        </div>
+        <p class="description">Fresh greens with nuts, fruits, and light dressing.</p>
+        <div class="menu-footer">
+          <span class="price">₹170</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1605475128023-45a22d64b2f4" alt="Paneer Tikka" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Paneer Tikka</h2>
+          <span class="rating">4.5 ★</span>
+        </div>
+        <p class="description">Grilled paneer cubes marinated in spicy masala.</p>
+        <div class="menu-footer">
+          <span class="price">₹220</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="BBQ Chicken" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>BBQ Chicken</h2>
+          <span class="rating">4.4 ★</span>
+        </div>
+        <p class="description">Smoky grilled chicken coated in BBQ sauce.</p>
+        <div class="menu-footer">
+          <span class="price">₹320</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1604908177522-432ea05c1a8c" alt="Sushi Roll" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Sushi Roll</h2>
+          <span class="rating">4.8 ★</span>
+        </div>
+        <p class="description">Fresh sushi rolls with rice, veggies, and seafood.</p>
+        <div class="menu-footer">
+          <span class="price">₹380</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Chocolate Cake" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Chocolate Cake</h2>
+          <span class="rating">4.6 ★</span>
+        </div>
+        <p class="description">Soft and moist cake layered with rich chocolate.</p>
+        <div class="menu-footer">
+          <span class="price">₹160</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Ice Cream" />
+      <div class="menu-content">
+        <div class="menu-header">
+          <h2>Ice Cream Sundae</h2>
+          <span class="rating">4.5 ★</span>
+        </div>
+        <p class="description">Chilled ice cream topped with chocolate syrup.</p>
+        <div class="menu-footer">
+          <span class="price">₹140</span>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
